@@ -1,4 +1,7 @@
-echo "*****\nSouth Seventh Shell Overlay and Tools Installation Starting\n*****"
+echo
+"*****
+South Seventh Shell Overlay and Tools Installation Starting
+*****"
 sudo mv install.bashrc ~/.bashrc
 sudo mv install.banner /etc/banner
 sudo mv install.motd /etc/motd
@@ -9,3 +12,5 @@ sudo apt-get update
 sudo apt-get install figlet
 sudo apt-get update
 sudo apt-get install git
+sudo apt-get update
+sudo apt-get install python3
