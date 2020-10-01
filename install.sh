@@ -1,7 +1,7 @@
 echo "*****\nSouth Seventh Shell Overlay and Tools Installation Starting\n*****"
-mv install.bashrc ~/.bashrc
-mv install.banner /etc/banner
-mv install.motd /etc/motd
+sudo mv install.bashrc ~/.bashrc
+sudo mv install.banner /etc/banner
+sudo mv install.motd /etc/motd
 cd /
 sudo apt-get update
 sudo apt-get install docker
